@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+    * {
+
+        font-family: "Poppins", sans-serif; 
+    }
+    
+    .content-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(49, 49, 49, 0.459);
+    }
+    
+    .content-table thead tr {
+        background-color: #6610f2;
+        color: #ffffff;
+        text-align: left;
+        font-weight: bold;
+    }
+    
+    .content-table th,
+    .content-table td {
+        padding: 12px 15px;
+    }
+    
+    .content-table tbody tr {
+        border-bottom: 2px solid grey
+        /*#dddddd;*/
+    }
+    
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: rgba(220, 220, 220, 0.822)
+    }
+    
+    .content-table tbody tr:last-of-type {
+        border-bottom: 3px solid #6610f2;
+    }
+    
+    .content-table tbody tr.active-row {
+        font-weight: bold;
+        color: #6610f2;
+    }
+  .b{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    cursor: pointer;
+     font-size: 13px;
+     font-weight: bold;
+    }
+    .d{
+  background-color:  #f44336;
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+    }
+
+    </style>
+</head>
+<body>
+    <table class="content-table">
+        <thead>
+          <tr>
+            <th>#ID</th>
+            <th>Full Names</th>
+            <th>Gender</th>
+            <th>Date of birth</th>
+            <th>Place of issue</th>
+            <th>N_ID_NO</th>
+            <th>ID PIK PDF</th>
+            <th>Status</th>
+           
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>NURUKUNDO Digne di confiance</td>
+            <td>Male</td>
+            <td>dd/mm/yyyy</td>
+            <td>Kigali-Gatsata</td>
+            <td>01101010101010</td>
+            <td>DOC.pdf</td>
+            <td>
+                <button class="b"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp; UPDATE</button> &nbsp;
+                <button class="d"> <i class="fa fa-trash-o" aria-hidden="true"></i>&nbsp; DELETE</button>
+            </td>
+          </tr>
+          <tr class="active-row">
+            <td>002</td>
+            <td>UMUGWANEZA Alice</td>
+            <td>Female</td>
+            <td>dd/mm/yyyy</td>
+            <td>Kigali-Kinamba</td>
+            <td>0202020202020</td>
+            <td>DOC.pdf</td>
+            <td>
+                <button class="b"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp; UPDATE</button>&nbsp;
+                <button class="d"> <i class="fa fa-trash" aria-hidden="true"></i>&nbsp; DELETE</button>
+            </td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>IRANZI Paul</td>
+            <td>Male</td>
+            <td>dd/mm/yyyy</td>
+            <td>Rubavu-Gisenyi</td>
+            <td>0303030303030</td>
+            <td>DOC.pdf</td>
+            <td>
+                <button class="b"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp; UPDATE</button>&nbsp;
+                <button class="d"> <i class="fa fa-trash" aria-hidden="true"></i>&nbsp; DELETE</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>004</td>
+            <td>ISIMBI Montez</td>
+            <td>Female</td>
+            <td>dd/mm/yyyy</td>
+            <td>Kigali-Kinyinya</td>
+            <td>04040404040400</td>
+            <td>DOC.pdf</td>
+            <td>
+                <button class="b"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp; UPDATE</button>&nbsp;
+                <button class="d"> <i class="fa fa-trash" aria-hidden="true"></i>&nbsp; DELETE</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>005</td>
+            <td>Peter Manzi</td>
+            <td>Male</td>
+            <td>dd/mm/yyyy</td>
+            <td>Rubavu-Gisenyi</td>
+            <td>0505005050505</td>
+            <td>DOC.pdf</td>
+            <td>
+                <button class="b"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp; UPDATE</button>&nbsp;
+                <button class="d"> <i class="fa fa-trash" aria-hidden="true"></i>&nbsp; DELETE</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>006</td>
+            <td>Kami Ciella</td>
+            <td>Female</td>
+            <td>dd/mm/yyyy</td>
+            <td>Kigali-Remera</td>
+            <td>06060606060606</td>
+            <td>DOC.pdf</td>
+            <td>
+                <button class="b"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp; UPDATE</button>&nbsp;
+                <button class="d"> <i class="fa fa-trash" aria-hidden="true"></i>&nbsp; DELETE</button>
+            </td>
+          </tr>
+          
+          <tr>
+            <td>007</td>
+            <td>Shami james</td>
+            <td>Male</td>
+            <td>dd/mm/yyyy</td>
+            <td>Nyanze-Rukari</td>
+            <td>07070707070707</td>
+            <td>DOC.pdf</td>
+            <td>
+                <button class="b"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp; UPDATE</button>&nbsp;
+                <button class="d"> <i class="fa fa-trash" aria-hidden="true"></i>&nbsp; DELETE</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>008</td>
+            <td>Mpundu Grace</td>
+            <td>Female</td>
+            <td>dd/mm/yyyy</td>
+            <td>Gasabo-Remera</td>
+            <td>08080808080808</td>
+            <td>DOC.pdf</td>
+            <td>
+                <button class="b"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp;UPDATE</button>&nbsp;
+                <button class="d"> <i class="fa fa-trash" aria-hidden="true"></i>&nbsp; DELETE</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>009</td>
+            <td>Soni Mike</td>
+            <td>Male</td>
+            <td>dd/mm/yyyy</td>
+            <td>Nyabihu-Bigogwe</td>
+            <td>0909090909090</td>
+            <td>DOC.pdf</td>
+            <td>
+                <button class="b"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp;UPDATE</button>&nbsp;
+                <button class="d"> <i class="fa fa-trash" aria-hidden="true"></i>&nbsp; DELETE</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>

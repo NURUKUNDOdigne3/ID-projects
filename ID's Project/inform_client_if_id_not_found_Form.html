@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="svg/favicon.svg" type="image/x-icon">
+    <title>ID not found form</title>
+    <style>
+        /* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.logo{
+    background-color: #6610f2;
+    padding-left: 50px;
+    height: 70px;
+    padding-top: 20px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.logo a:hover{
+    color: gray;
+}
+.nav{
+    margin-left: 560px;
+    color: white;
+    margin-top: -60px;
+    text-transform: uppercase;
+ }
+ .pil{
+    margin-top: 100px;
+    margin-left: 50px;
+ }
+ .abu{
+    margin-left: 830px;
+    font-size: 20px;
+    margin-top: -420px;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ 
+ .di{
+    margin-left: 640px;
+    margin-top: 80px;
+ }
+.butt{
+    margin-left: 900px;
+    margin-top: 60px;
+}
+.uto{
+    padding: 12px 25px;
+    border: none;
+    background-color: #6610f2;
+    border-radius: 10px;
+    cursor: pointer;
+  transition: all 0.3s ease;
+}
+.uto a{
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bolder;
+    color: white;
+}
+.uto:hover{
+   opacity: 0.9;
+}
+.fo{
+    margin-left: 560px;
+    margin-top: 120px;
+}
+
+
+
+/*css for scroll bars*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px;  
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6610f2;
+  
+    border-radius: 6px; 
+  }
+  input[type="text"],[type="email"],[type="tel"]{
+
+background-color: gainsboro;
+font-size: 20px;
+padding: 9px 60px;
+border-radius: 5px;
+border: none;
+
+}
+.sa{
+    border: none;
+    background-color: #6610f2;
+    padding: 15px 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-left: 145px;
+    margin-bottom: 70px;
+}
+.sa:hover{
+    opacity: 0.9;
+    background-color: #9f01ea;
+    
+}
+.fo h2{
+    margin-left: 21px;
+}
+
+footer{
+    background-color: rgb(20, 19, 19);
+}
+.dev h2{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.do h3{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+    </style>
+
+</head>
+<body>
+
+    <div class="logo">
+        <a href="index.html"><h2>IRANGA TECH</h2></a>
+    </div>
+
+    <div class="nav">
+        <h3>Fill&nbsp;&nbsp; the&nbsp;&nbsp; form&nbsp;&nbsp; with&nbsp;&nbsp; those&nbsp;&nbsp; information.</h3>
+    </div>
+
+    <div class="pil">
+        <img src="pik/pik2.jpg" alt="" width="500px" height="400px"  style="border-radius: 15px; box-shadow: 0 4px 8px 0 rgba(12, 11, 11, 0.842), 0 6px 20px 0 rgba(26, 22, 22, 0.541);">
+    </div>
+
+    <div class="abu">
+        <h2>About This page</h2>
+    </div>
+
+    <div class="di">
+        <h3>This page is used for informing our clients   once His/Her ID is found he/she  will 
+        recieve a massage or that His/Her ID has found the he/she continue <br> with the process of 
+    achiving his/her on <a href="index.html">IRANGA TECH</a></h3>
+    </div>
+
+     
+    <div class="butt">
+        <button class="uto"><a href="agent_login.html">NOT INTERESTED</a></button>
+    </div>
+    
+    
+    <div class="fo">
+        <form action="#" method="post">
+            <h2>Full Names</h2>
+            <input type="text" name="fname" id="fname" placeholder="some one" required> <br><br>
+            <h2>Phone Number</h2>
+            <input type="tel" name="phone" id="phone" placeholder="+250......." required><br><br>
+            <h2>E-Mail</h2>
+            <input type="email" name="email" id="email" placeholder="someone@web.com" required> <br> <br>
+
+            <button type="submit" name="save" class="sa">SUBMIT</button>
+        </form>
+       
+    </div>
+
+    <footer>
+        <div class="dev">
+            <h2>IRANGA TECH &copy;</h2>
+        </div>
+
+        <div class="do">
+            <h3>Alright reserved by: &nbsp; Digne &Ali &nbsp; 2023</h3>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

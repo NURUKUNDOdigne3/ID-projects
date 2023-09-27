@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="svg/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <title>Agent Register Form</title>
+    <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+    *{
+        margin: 0;
+        padding: 0;
+         font-family: sans-serif;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        
+    }
+
+    
+/*css for scroll bars*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px; 
+    height: 20px; 
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6610f2;
+  
+    border-radius: 6px; 
+  }
+
+
+
+    .lg{
+        padding-left: 90px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        padding-top: 20px;
+        height: 90px;
+        background-color: #6610f2;
+    }
+  
+
+        /*
+        .form label{
+            margin-left: 560px;
+        }
+        input[type="file"]{
+            background-image: url('favicon.svg');
+            background-position: center;
+            background-size: cover;
+
+            height: 100px;
+            width: 90px;
+            border-radius: 30px;
+        }
+        */
+        .adik{    
+            padding: 14px 26px;
+            background:white;
+            margin-top: -200px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .adik a{
+            color: #6610f2;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .adk{
+            margin-left: 1050px;
+            margin-top: -53px;
+
+            
+        }
+        .reg{
+
+    margin-top: 80px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 600;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+input[type="text"],[type="email"],[type="tel"],[type="password"]{
+
+    background-color: gainsboro;
+    font-size: 20px;
+    padding: 9px 60px;
+    border: none;
+    
+}
+.form select{
+    background-color: gainsboro;
+    font-size: 20px;
+    width: 45%;
+    padding: 9px;
+    border: none;
+   
+}
+
+input[type="file"]{
+            background-image: url('favicon.svg');
+            background-position: center;
+            background-size: cover;
+            height: 100px;
+            border-style: groove;
+            margin-left: 70px;
+            width: 90px;
+            border-radius: 30px;
+        }
+        .form{
+            margin-left: 540px;
+        }
+        .form h2{
+             margin-top: 10px;
+             text-transform: uppercase;
+             margin-bottom: 12px;
+            margin-left: 30px;
+        }
+        .rgs{
+            margin-left: 87px;
+            padding: 8px 25px;
+        position: sticky;
+        background-color:  #6610f2;
+        color: #171a23;
+        border-color: wheat;
+        cursor: pointer;         
+        color: white;
+        font-size: 20px;
+        
+        }
+        .rgs:hover{
+            background-color: #56d8e4;
+        }
+        .rt{
+      margin-top: 40px;
+      margin-bottom: 50px;
+      font-size: 24px;
+      font-family: sans-serif;
+      margin-left: -90px;
+      font-weight: 600;
+      background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+        }
+        .age{
+            margin-left: 90px;
+            margin-top: -350px;
+            margin-bottom: 60px;
+        }
+        .age-details{
+            margin-left: 700px;
+           margin-bottom: -300px;
+           margin-top: 120px;
+        }
+        .dt i{
+            
+
+           background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .dt{
+            margin-left: 850px;
+            margin-top: 350px;
+        }
+        .d{
+            margin-top: 90px;
+        }
+         .n{
+            margin-top: 30px;
+            
+         }
+        .n a{
+            text-decoration: none;
+            color: black;
+
+        }
+        .n a:hover{
+            text-decoration: overline;
+            color: #6610f2;
+        }
+
+
+
+
+
+        
+.dev a{
+  text-transform: none;
+  margin-top: 60px;
+}
+.dev a:hover{
+ text-decoration: underline;
+ color: #56d8e4;
+}
+
+.ft{
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.dev{
+  color: white;
+  text-align:center;
+  margin-top: 30px;
+}
+footer{
+  margin-top: 50px;
+  background-color: #6610f2;
+  height: 90px;
+}
+
+.si{
+    margin-left: 1000px;
+    margin-top: -1400px;
+    margin-left: 860px;
+}
+.si a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.sir{
+  padding: 14px 26px;
+  background:#6610f2; 
+  border-radius: 10px;
+  margin-top: -200px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <!--
+    <div class="form">
+        <form action="#" method="post">
+            <label for="profile">Profile picture</label> <br>
+       
+    
+            <input type="submit" value="SEND DATA">
+        </form>
+        
+
+    </div>
+    -->
+
+    <div class="lg">
+        <H1>iranga tech hub</H1>
+    </div>
+
+    <div class="adk">
+        <button class="adik"><a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i>  BACK TO WEB</a></button>
+    </div>
+    
+    <div class="reg">
+        <h1>Personal Information form</h1>
+    </div>
+
+    <div class="age-details">
+        <h3>Here are the following guidelines that anyone who wants <br> to 
+            be one of our agents must have in order to work with us accordingly
+            he or she must respect them accordingly.
+        </h3>
+    </div>
+
+
+    <div class="dt">
+      <h4> <i class="fa fa-check-square-o" aria-hidden="true"></i>  &nbsp; &nbsp;  E.A.C Member</h4>
+      <h4> <i class="fa fa-check-square-o" aria-hidden="true"></i>  &nbsp; &nbsp;  18 years above</h4>
+      <h4> <i class="fa fa-check-square-o" aria-hidden="true"></i>  &nbsp; &nbsp;  Work only from sectors..</h4>
+
+    </div>
+      
+    <div class="d">
+        <div class="age">
+            <img src="pik/pik1.jpg" alt="" width="450px" height="400px"  style="border-radius: 15px; box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.706), 0 6px 20px 0 rgba(32, 30, 30, 0.507);">
+        
+        </div>
+    
+
+    </div>
+   
+     <div class="form">
+        <form action="#" method="post">
+         <h2>First Name</h2>
+         <input type="text" name="fname" id="fname" placeholder="Eg:Manzi" required>
+
+         <h2>Last Name</h2>
+         <input type="text" name="lname" id="lname" placeholder="Eg:Paul" required>
+
+         <h2>Gender</h2>
+         <select name="gender" id="gender">
+            <option value="#"></option>
+            <option value="#male">Male</option>
+            <option value="#female">Female</option>
+         </select>
+
+         <h2>Telphone</h2>
+         <input type="tel" name="tel" id="tel" placeholder="eg:+250...." required>
+
+         <h2>E-Mail</h2>
+         <input type="email" name="email" id="email" placeholder="someone@web.com" required>
+
+         <h2>Sector Residence</h2>
+         <select name="sector" id="">
+            <option value="#"></option>
+           <option value="#">gastata</option>
+           <option value="#">remera</option>
+           <option value="#">other sectors</option>
+         </select>
+
+
+         <div class="rt">
+            <h2>Account Information form</h2>
+         </div>
+
+         <h2>Choose profile picture</h2>
+        <input type="file" required>
+          <h2>Password</h2>
+          <input type="text" name="psd1" id="psd1" placeholder="Eg:abc123." required>
+          <h2>Confirm Password</h2>
+          <input type="password" name="psd2" placeholder="eg:*****" id="psd2" required> <br> <br> <br>
+
+          <button type="submit" class="rgs">REGISTER</button>
+            
+          <div class="n">
+            <p><a href="agent_login.html">I already have an account</a> </p>
+          </div>
+         
+
+        </form>
+     </div>
+
+
+
+     <footer>
+        <div class="ft">
+         <h1> iranga tech &copy 2023</h1>
+        </div>
+    
+        <div class="dev">
+          <p> <a href="#"> Alright reserved by Digne & Ali Data Centers LTD.</a></p>
+        </div>
+       </footer>
+
+
+       
+     
+    <div class="si">
+        <button class="sir">  <a href="index.html"><i class="fa fa-check-home" aria-hidden="true" style="color: white;"></i>  Not Interested</a></button>
+    </div>
+    
+
+
+
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
